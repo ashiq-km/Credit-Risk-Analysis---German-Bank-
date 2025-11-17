@@ -2,7 +2,11 @@
 
 ## 📘 Project Overview
 
-This repository contains work-in-progress for a **credit risk analysis** project. The goal is to understand the dataset, explore patterns, engineer features, and eventually build a reliable predictive model. The project structure will expand over time as additional notebooks and steps are added.
+This repository contains work-in-progress for a **credit risk analysis** project. 
+
+### 🎯Goal: 
+
+To understand the dataset, explore patterns, engineer features, and eventually build a reliable predictive model. The project structure will expand over time as additional notebooks and steps are added.
 
 ---
 
@@ -41,7 +45,7 @@ The main objectives of this project are:
 
 ### ✔️ 2. Preprocessing Plan Finalized
 
-You have identified several preprocessing steps that will be required, including:
+We have identified several preprocessing steps that will be required, including:
 
 * Handling categorical codes (decoding or encoding).
 * Handling numeric feature scaling.
