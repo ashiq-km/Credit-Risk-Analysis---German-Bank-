@@ -4,12 +4,12 @@ import streamlit as st
 import joblib
 import pandas as pd
 import time
-from utils.mappings import GERMAN_CREDIT_MAPPINGS, NUMERICAL_RANGES, PREDICTION_MAPPING, MODEL_FEATURE_ORDER 
+from src.mappings import GERMAN_CREDIT_MAPPINGS, NUMERICAL_RANGES, PREDICTION_MAPPING, MODEL_FEATURE_ORDER 
 import os
 from pathlib import Path
 
 # --- Configuration & Path ---
-MODEL_PATH = "best_model/xgb_pipeline.joblib" 
+MODEL_PATH = "models/xgb_pipeline.joblib" 
 
 st.set_page_config(
     page_title="German Credit Risk Predictor",
