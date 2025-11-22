@@ -138,7 +138,10 @@ class Threshold_Max:
 
         # -- mlflow pyfunc.PythonModel model ---
 
-        mlflow.pyfunc.log_model(name="Thresholded Model", python_model = wrapped)
+        mlflow.pyfunc.log_model(name="Thresholded Model", 
+                                python_model = wrapped, 
+                                code_paths= ["src"]
+                                )
 
 
 
